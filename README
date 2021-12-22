@@ -46,13 +46,14 @@ msginit -i ru.pot -o ru.po
 8. Send final .po file for your language to project oidtdb.
 
 NOTE (translation of arbitrary OIDs)
-If you want get translation of arbitrary OIDs create .txt file with list of OIDs (see
-examples in eku directory). Create x509 test.cer with OIDs wrapped into 'extended key usage' 
-x509v3 extension by command:
+If you want get translation of arbitrary OIDs create .txt file with list
+ of OIDs (see examples in eku directory). Create x509 test.cer with OIDs 
+wrapped into 'extended key usage' x509v3 extension by command:
+make utils
 cert <your .txt file>
 Exec 1-6 for your OIDs set.
 
 NOTE (synchronization):
-Different versions of software and MS Windows OSes have as different OID sets as well 
-different translation for the same OID. Syncronize translations from different sources
-and integrate .pot files into single .pot file.
+Different versions of software and MS Windows OSes have as different OID 
+sets as well different translation for the same OID. Syncronize translations 
+from different sources and integrate .pot files into single .pot file.
